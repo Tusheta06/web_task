@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Order premium cakes online from Theobroma. Discover our rich chocolate cakes, cheesecakes, and fresh cream cakes.">
+    <title>Theobroma | Premium Cakes Online</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo">Theobroma</div>
+            <nav class="main-nav">
+                <a href="#">Home</a>
+                <a href="#" class="active">Cakes</a>
+                <a href="#">Brownies</a>
+                <a href="#">Gifting</a>
+            </nav>
+            <div class="cart-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 20a1 1 0 100-2 1 1 0 000 2zM19 20a1 1 0 100-2 1 1 0 000 2z"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="promo-banner">
+        <div class="container">
+            <p>🎉 <strong>Up to Rs. 200 OFF</strong> on your First Order! Use code <span>FIRST200</span></p>
+        </div>
+    </div>
+
+    <main class="container page-content">
+        <div class="page-header">
+            <h1 class="page-title">Cakes</h1>
+            <p class="page-subtitle">Handcrafted with love and the finest ingredients.</p>
+        </div>
+        
+        <div class="shop-layout">
+            <aside class="filters-sidebar">
+                <div class="filter-group">
+                    <h3 class="filter-title">Category</h3>
+                    <ul class="filter-list">
+                        <li><label><input type="checkbox" checked> All Cakes</label></li>
+                        <li><label><input type="checkbox"> Signature Cakes</label></li>
+                        <li><label><input type="checkbox"> Cheesecakes</label></li>
+                        <li><label><input type="checkbox"> Bento Cakes</label></li>
+                    </ul>
+                </div>
+                <div class="filter-group">
+                    <h3 class="filter-title">Dietary Preference</h3>
+                    <ul class="filter-list">
+                        <li><label><input type="checkbox"> Eggless</label></li>
+                        <li><label><input type="checkbox"> Contains Egg</label></li>
+                        <li><label><input type="checkbox"> Vegan</label></li>
+                    </ul>
+                </div>
+                <div class="filter-group">
+                    <h3 class="filter-title">Size</h3>
+                    <ul class="filter-list">
+                        <li><label><input type="checkbox"> 500g (Half Kg)</label></li>
+                        <li><label><input type="checkbox"> 1kg</label></li>
+                        <li><label><input type="checkbox"> 1.5kg & above</label></li>
+                    </ul>
+                </div>
+            </aside>
+
+            <section class="product-grid" id="productGrid">
+                <!-- Product items rendered dynamically via JS -->
+            </section>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2026 Theobroma. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
