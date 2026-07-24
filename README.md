@@ -33,8 +33,8 @@ https://risklens-technologies.vercel.app/
 
 ## Performance
 
-- Lighthouse Performance: [Score]
-- PageSpeed Insights: [Score]
+- Lighthouse Performance: 85
+- PageSpeed Insights: 85
 
 ## Structured Data
 
