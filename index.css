@@ -365,6 +365,10 @@ h1, h2, h3, h4, .logo {
     font-size: 14px;
     margin-top: 60px;
 }
+.main-footer a{
+    text-decoration: none;
+    color: var(--text-muted);
+}
 
 /* Responsive */
 @media (max-width: 992px) {
